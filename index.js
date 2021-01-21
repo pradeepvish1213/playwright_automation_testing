@@ -10,7 +10,7 @@ const {chromium} = require('playwright');
     await page.goto('https://dev.dataseers.in/login');
     console.log('Logged in form Started')
     await page.fill('#normal_login_email', 'pvishwakarma@dataseers.in');
-    await page.fill('#normal_login_password', 'Qwerty@123');
+    await page.fill('#normal_login_password', 'PASSWORD');
     await page.click('button.ant-btn.login-form-button.text-white.ant-btn-block');
 
     await navigationPromise
